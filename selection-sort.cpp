@@ -1,8 +1,13 @@
 # include "includeAll.h"
 using namespace std;
-
+/*selection-sort is inplace comparison based sortinng algorithm.
+In this array is divided into parts. sorted part on left and unsorted on left.
+At begin of sort() function sorted part is empty and complete array is taken as unsorted part*/
 void sort (int array[], int size) {
-	
+	/*in this function minIndex is set to 0 and now we compare all the other elements to 
+	the element at position minIndex. if it is less than the element at position minIndex , swap them.
+	Now sorted part has one element*/
+	/* now we do iteration untill there is no element in unsorted part*/
 	int minIndex = 0;
 	
 	for (int i = 0; i < size-1; ++i) {
