@@ -1,7 +1,6 @@
 #include "includeAll.h"
 using namespace std;
 
-
 // "Bubble Sort" Sorting Algorithm Time Complexity O(N^2).
 void sort (int *listOfElements, int sizeOfList) {
 	for (int i = 0; i < sizeOfList - 1; ++i) {
@@ -14,6 +13,7 @@ void sort (int *listOfElements, int sizeOfList) {
                 swap (listOfElements[i], listOfElements[j]);
 		// Print the list with the state of each iteration to simulate the bubble sort
 		// For the user
+		
 		cout << "Iteration #" << i + 1 << ":" ;
 		for (int k = 0; k < sizeOfList; ++k)
 			cout << listOfElements[k];
