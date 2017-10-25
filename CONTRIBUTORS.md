@@ -1,1 +1,2 @@
 - Sambhav Jain [(@sambhav2612)](https://github.com/sambhav2612)
+- Andrew Joshua Loria [(@ajloria)](https://github.com/ajloria)
