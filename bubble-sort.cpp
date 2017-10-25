@@ -1,6 +1,7 @@
 # include "includeAll.h"
 using namespace std;
 
+
 // "Bubble Sort" Sorting Algorithm Time Complexity O(N^2).
 void sort (vector<int>& listOfElements) {
 
@@ -25,7 +26,7 @@ void sort (vector<int>& listOfElements) {
 
 int main () {
 
-    // Read and declare size of desired list by user
+  // Read and declare size of desired list by user
 	int sizeOfList;
 	cout << "Enter Size: " << endl;
 	cin >> sizeOfList;
@@ -36,7 +37,7 @@ int main () {
 	// Receive list elements from the user and save them in the vector
 	cout << endl << "Enter elements: " << endl;
 	for (int i = 0; i < sizeOfList; ++i)
-		cin >> listOfElements[i];
+	  cin >> listOfElements[i];
 
     // Print the list before sorting for the user
 	cout << endl << "Array before sorting: " << endl;

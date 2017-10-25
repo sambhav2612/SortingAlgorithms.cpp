@@ -2,7 +2,11 @@
 using namespace std;
 
 void sort (int array[], int size) {
-
+	/* in this function we use inplace comparison based sorting algorithm*/
+	/*in this function array from index 0 to hole is assumed to be sorted.*/
+	/* now we compare element of unsorted subarray to all elements of sorted subarray.*/
+	/*if the element is found greater than the element in sorted subarray. insert this element in sorted 
+	subarray and shift all elements accordingly.*/
 	int value = 0, hole = 0;
 	for (int i = 1; i < size; ++i) {
 		value = array[i];
