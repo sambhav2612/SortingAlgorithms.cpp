@@ -1,12 +1,13 @@
-# include "includeAll.h"
+#include<iostream>//this header includes cin and cout 
+#include<algorithm>//swap() is defined in this header.
 using namespace std;
 
 void sort (int array[], int size) {
-	
+	/*this function will check neighbour element of array and sort them in increasing order*/
 	for (int i = 0; i < size-1; ++i) {
 		for (int j = i+1; j < size; ++j) {
 				if (array[i] > array[j]) {
-					swap (&array[i], &array[j]);
+					swap (array[i],array[j]);
 			}
 		}
 		cout << "Iteration #" << i+1 << ":" ;
