@@ -23,10 +23,10 @@ void sort (int *listOfElements, int size) {
 
     // Print the list with the state of each iteration to simulate the Insertion sort
     // for the user
-/*	cout << "Iteration #" << i+1 << ":" ;
+	cout << "Iteration #" << i+1 << ":" ;
 	for (int k = 0; k < size; ++k)
 		cout << listOfElements[k];
-	cout << endl;*/
+	cout << endl;
 	}
 }
 
@@ -44,21 +44,20 @@ int main () {
 	cout << endl << "Enter elements: " << endl;
 	for (int i = 0; i < sizeOfList; ++i)
 	  cin >> listOfElements[i];
-/*
+
     // Print the list before sorting for the user
 	cout << endl << "Array before sorting: " << endl;
 	for (int i = 0; i < sizeOfList; ++i)
 		cout << listOfElements[i];
 	cout << endl << endl;
-*/
+
 	// Sort the elements in the list
 	sort (listOfElements, sizeOfList);
-	printf("done\n");
-/*
+
 	// Print the list after the list has been sorted
 	cout << endl << "Array after sorting: " << endl;
 	for (int i = 0; i < sizeOfList; ++i)
 		cout << listOfElements[i];
-*/	return 0;
 
+	return 0;
 }
