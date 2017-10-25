@@ -1,10 +1,3 @@
-//============================================================================
-// Name        : Selection.cpp
-// Author      : Luis Pujols
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
 # include "includeAll.h"
 using namespace std;
 
