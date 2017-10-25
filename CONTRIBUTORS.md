@@ -1,2 +1,1 @@
 - Sambhav Jain [(@sambhav2612)](https://github.com/sambhav2612)
-- Aditya Agarwal [(@aditya81070)](https://github.com/aditya81070)
