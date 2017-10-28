@@ -3,3 +3,4 @@
 - Aditya Agarwal [(@aditya81070)](https://github.com/aditya81070)
 - Taras Yarema [(@tarasyarema)](https://github.com/tarasyarema)
 - Samhita Varambally [(@samhitav)](https://github.com/samhitav)
+- Bruno Viecelli [(@bviecelli)](https://github.com/bviecelli)
